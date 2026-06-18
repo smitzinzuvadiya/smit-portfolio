@@ -66,15 +66,18 @@ const Contact = () => {
               </div>
             </div>
             
-            {/* Map Placeholder */}
-            <div className="glass-card rounded-2xl h-64 border border-white/5 flex items-center justify-center relative overflow-hidden group">
-               <div className="absolute inset-0 bg-zinc-900 z-0"></div>
-               {/* Decorative grid pattern for tech map feel */}
-               <div className="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(0,243,255,0.2)_1px,transparent_1px),linear-gradient(90deg,rgba(0,243,255,0.2)_1px,transparent_1px)] bg-[size:20px_20px] z-10"></div>
-               <div className="relative z-20 flex flex-col items-center">
-                 <MapPin size={40} className="text-neon-cyan animate-bounce" />
-                 <span className="text-zinc-400 mt-2 font-mono text-sm">Interactive Map</span>
-               </div>
+            {/* Embedded Google Map */}
+            <div className="glass-card rounded-2xl h-64 border border-white/5 relative overflow-hidden group">
+               <iframe 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41709444158!2d72.73989476007421!3d21.159340298642055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                 width="100%" 
+                 height="100%" 
+                 style={{ border: 0 }} 
+                 allowFullScreen="" 
+                 loading="lazy" 
+                 referrerPolicy="no-referrer-when-downgrade"
+                 className="absolute inset-0 grayscale contrast-125 opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+               ></iframe>
             </div>
           </motion.div>
 
