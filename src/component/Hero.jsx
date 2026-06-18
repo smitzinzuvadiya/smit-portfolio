@@ -32,7 +32,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-zinc-500 max-w-lg leading-relaxed text-lg">
-            I'm a passionate full-stack developer dedicated to building elegant, responsive, and user-centric web applications. Transforming ideas into robust digital solutions.
+            Hi, I'm Smit Zinzuvadiya — a passionate Full-Stack Developer dedicated to building elegant, responsive, and user-centric web applications. I transform ideas into robust digital solutions, combining clean design with powerful functionality to create seamless digital experiences
           </p>
 
           {/* Buttons */}

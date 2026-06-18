@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,21 +16,21 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="text-zinc-400 hover:text-neon-blue transition-colors">
+          <a href="https://github.com/smitzinzuvadiya" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-neon-blue transition-colors">
             <Github size={20} />
           </a>
-          <a href="#" className="text-zinc-400 hover:text-neon-cyan transition-colors">
+          <a href="https://www.linkedin.com/in/smit-zinzuvadiya-831b71309/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-neon-cyan transition-colors">
             <Linkedin size={20} />
           </a>
-          <a href="#" className="text-zinc-400 hover:text-neon-purple transition-colors">
-            <Twitter size={20} />
+          <a href="mailto:smitzinzuvadiya37@gmail.com" className="text-zinc-400 hover:text-neon-purple transition-colors">
+            <Mail size={20} />
           </a>
         </div>
 
       </div>
       
       <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-600">
-        <p>© {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Smit Zinzuvadiya. All rights reserved.</p>
         <p className="flex items-center gap-1">
           Crafted with <Heart size={14} className="text-neon-purple animate-pulse" /> and futuristic code.
         </p>

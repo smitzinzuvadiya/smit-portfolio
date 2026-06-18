@@ -8,9 +8,7 @@ const skillsData = [
   { name: "Express.js", level: 85, color: "bg-neon-purple" },
   { name: "HTML & CSS", level: 95, color: "bg-neon-blue" },
   { name: "Tailwind CSS", level: 90, color: "bg-neon-cyan" },
-  { name: "Three.js", level: 70, color: "bg-neon-purple" },
-  { name: "Framer Motion", level: 85, color: "bg-neon-blue" },
-  { name: "Git & GitHub", level: 90, color: "bg-neon-cyan" },
+  { name: "Git & GitHub", level: 90, color: "bg-neon-purple" },
 ];
 
 const Skills = () => {
